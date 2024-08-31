@@ -1,0 +1,55 @@
+@media(max-width: 1280px){
+    body{
+        padding: 0;
+    }
+    iframe{
+        width: 100%;
+        
+    }
+}
+@media(max-width: 1240px){
+    img{
+        width: 90%;
+    }
+    footer{
+        width: 1020px;
+    }
+    
+}
+@media(max-width: 700px){
+    main{
+        margin: 0 50px 0 50px;
+    }
+    img{
+        width: 100%;
+    }
+    iframe{
+        height: 320px;
+    }
+    footer{
+        width: 700px;
+    }
+}
+@media(max-width: 414px){
+    nav{
+        font-size: 14px;
+    }
+    main{
+        margin: 0 20px 0 20px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #roboComHomem{
+        width: 100%;
+    }
+    iframe{
+        height: 200px;
+    }
+    footer{
+        width: 430px;
+    }
+}

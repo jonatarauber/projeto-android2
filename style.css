@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf');
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #91ebb8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: linear-gradient(180deg, rgba(60,215,129,1) 17%, rgba(26,92,56,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px 0px auto 0px;
+    padding: 10px;
+}
+#tituloCabecalho {
+    font-family: 'Tektur', sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#subTitulo{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    padding: 15px auto 0px 0px;
+    margin: auto;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-left: 15px;
+    
+}
+a:hover{
+    color: rgb(4, 39, 1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+    margin: 0px 70px 0px 70px;
+    width: 1000;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.548); 
+    border-radius: 0px 0px 10px 10px;
+}
+h1 , h2 {
+    font-family: 'idroid', Helvetica, sans-serif;
+    color: #21613d;
+    padding: 5px;
+}
+#title2 , #title3 {
+    background: linear-gradient(90deg, rgba(197,235,214,1) 17%, rgba(252,254,253,1) 100%);
+}
+#tituloQuadro{
+    background-color: #2fa866;
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+img{
+    width: 100%;
+   margin: auto;
+   display: flex; 
+}
+#imagenirina{
+    align-items: center;
+    width: 1190px;
+    margin: auto;
+}
+#roboComHomem{
+    display: flex;
+    margin: auto;
+    width: 400px;
+}
+iframe{
+    margin: auto;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 550px;
+}
+p{
+    padding: 7px;
+    text-align: justify;
+}
+#quadro{
+    text-align: justify;
+    margin: 0px;
+    padding: 30px;
+    background-color: #C5EBD6;
+    border-radius: 0 0 20px 20px;
+}
+
+#link{
+    color: black;
+}
+footer{
+    background-color: #1a5c38;
+    color: white;
+    padding: 10px 0 10px 0;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
